@@ -1,0 +1,30 @@
+{
+  "name": "secure-application-integration",
+  "version": "1.0.0",
+  "description": "Integrated internship board with validated applications and API protections",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devop785/Secure-Application-Integration.git"
+  },
+  "keywords": [],
+  "author": "Syed Anwar Shazeb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "helmet": "^8.3.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}

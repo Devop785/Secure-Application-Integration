@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "company": "Northstar Labs",
+    "role": "Frontend Developer Intern",
+    "domain": "Full Stack",
+    "location": "Remote · India",
+    "durationWeeks": 8,
+    "stipend": 0,
+    "description": "Fictional sample opportunity for practising Full Stack skills."
+  },
+  {
+    "id": 2,
+    "company": "DataSpring Studio",
+    "role": "Data Science Intern",
+    "domain": "Data Science",
+    "location": "Remote · India",
+    "durationWeeks": 8,
+    "stipend": 0,
+    "description": "Fictional sample opportunity for practising Data Science skills."
+  },
+  {
+    "id": 3,
+    "company": "PyWorks Collective",
+    "role": "Python Developer Intern",
+    "domain": "Python",
+    "location": "Remote · India",
+    "durationWeeks": 8,
+    "stipend": 0,
+    "description": "Fictional sample opportunity for practising Python skills."
+  },
+  {
+    "id": 4,
+    "company": "NeuralNest",
+    "role": "Machine Learning Intern",
+    "domain": "AI/ML",
+    "location": "Remote · India",
+    "durationWeeks": 8,
+    "stipend": 0,
+    "description": "Fictional sample opportunity for practising AI/ML skills."
+  },
+  {
+    "id": 5,
+    "company": "Pixel & Pattern",
+    "role": "UI/UX Design Intern",
+    "domain": "Design",
+    "location": "Remote · India",
+    "durationWeeks": 8,
+    "stipend": 0,
+    "description": "Fictional sample opportunity for practising Design skills."
+  },
+  {
+    "id": 6,
+    "company": "WebFoundry",
+    "role": "Full Stack Developer Intern",
+    "domain": "Full Stack",
+    "location": "Remote · India",
+    "durationWeeks": 8,
+    "stipend": 0,
+    "description": "Fictional sample opportunity for practising Full Stack skills."
+  }
+]

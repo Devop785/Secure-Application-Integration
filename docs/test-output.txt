@@ -1,0 +1,83 @@
+
+> secure-application-integration@1.0.0 test
+> node --test
+
+TAP version 13
+# Subtest: frontend loading, failure, retry, safe rendering and empty results
+ok 1 - frontend loading, failure, retry, safe rendering and empty results
+  ---
+  duration_ms: 143.0713
+  type: 'test'
+  ...
+# Subtest: frontend form validation, failed submission preserves values, retry succeeds
+ok 2 - frontend form validation, failed submission preserves values, retry succeeds
+  ---
+  duration_ms: 60.47
+  type: 'test'
+  ...
+# (node:2820) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: integrated API security and application persistence
+    # Subtest: frontend, data and secure headers
+    ok 1 - frontend, data and secure headers
+      ---
+      duration_ms: 46.6571
+      type: 'test'
+      ...
+    # Subtest: client-independent validation
+    ok 2 - client-independent validation
+      ---
+      duration_ms: 63.2375
+      type: 'test'
+      ...
+    # Subtest: cross-origin, content-type and request-header protection
+    ok 3 - cross-origin, content-type and request-header protection
+      ---
+      duration_ms: 5.4613
+      type: 'test'
+      ...
+    # Subtest: malformed and oversized bodies
+    ok 4 - malformed and oversized bodies
+      ---
+      duration_ms: 4.0517
+      type: 'test'
+      ...
+    # Subtest: success, normalization and duplicate retry
+    ok 5 - success, normalization and duplicate retry
+      ---
+      duration_ms: 13.6192
+      type: 'test'
+      ...
+    # Subtest: parameterized SQL and private data
+    ok 6 - parameterized SQL and private data
+      ---
+      duration_ms: 10.5217
+      type: 'test'
+      ...
+    1..6
+ok 3 - integrated API security and application persistence
+  ---
+  duration_ms: 182.6489
+  type: 'test'
+  ...
+# Subtest: application rate limiting returns 429 and retry information
+ok 4 - application rate limiting returns 429 and retry information
+  ---
+  duration_ms: 26.1901
+  type: 'test'
+  ...
+# Subtest: general API limiter
+ok 5 - general API limiter
+  ---
+  duration_ms: 24.1183
+  type: 'test'
+  ...
+1..5
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1981.0937
